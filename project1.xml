@@ -1,1 +1,37 @@
-<xml xmlns="http://www.w3.org/1999/xhtml"></xml>
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="comment_comment" id="824" x="-47" y="-11">
+    <field name="TEXT">Hi</field>
+    <next>
+      <block type="controls_repeat" id="537" inline="true">
+        <value name="TIMES">
+          <block type="math_number" id="594">
+            <field name="NUM">3</field>
+          </block>
+        </value>
+        <statement name="DO">
+          <block type="movement_forward" id="604">
+            <next>
+              <block type="movement_left" id="624">
+                <next>
+                  <block type="movement_reverse" id="614">
+                    <next>
+                      <block type="movement_stutter" id="675">
+                        <next>
+                          <block type="movement_right" id="634">
+                            <next>
+                              <block type="movement_stop" id="654"></block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+      </block>
+    </next>
+  </block>
+</xml>
