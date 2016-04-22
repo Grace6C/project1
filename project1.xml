@@ -1,25 +1,25 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="comment_comment" id="824" x="-47" y="-11">
+  <block type="comment_comment" id="1" x="-47" y="-11">
     <field name="TEXT">Hi</field>
     <next>
-      <block type="controls_repeat" id="537" inline="true">
+      <block type="controls_repeat" id="2" inline="true">
         <value name="TIMES">
-          <block type="math_number" id="594">
+          <block type="math_number" id="3">
             <field name="NUM">3</field>
           </block>
         </value>
         <statement name="DO">
-          <block type="movement_forward" id="604">
+          <block type="movement_forward" id="4">
             <next>
-              <block type="movement_left" id="624">
+              <block type="movement_left" id="5">
                 <next>
-                  <block type="movement_reverse" id="614">
+                  <block type="movement_reverse" id="6">
                     <next>
-                      <block type="movement_stutter" id="675">
+                      <block type="movement_stutter" id="7">
                         <next>
-                          <block type="movement_right" id="634">
+                          <block type="movement_right" id="8">
                             <next>
-                              <block type="movement_stop" id="654"></block>
+                              <block type="movement_stop" id="9"></block>
                             </next>
                           </block>
                         </next>
@@ -31,6 +31,11 @@
             </next>
           </block>
         </statement>
+        <next>
+          <block type="comment_comment" id="14">
+            <field name="TEXT">Bye see your tommorow</field>
+          </block>
+        </next>
       </block>
     </next>
   </block>
